@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Poppins:wght@600&family=Rock+Salt&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;    
+}
+
+.top{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.first-half, .second-half{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+
+.first-img{
+    width: 40%;
+    position: relative;  
+}
+
+.second-img{
+    width: 100%;
+}
+
+.content-1{
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    bottom: 25%;
+    padding: 3% 30% 3% 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.2;
+    width: 100%;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.content-2{
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 3% 10% 3% 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.2;
+}
+
+.content > .price{
+    font-weight: 700;
+}
+
+.top h3{
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.6rem;
+    color: rgb(164,89,60);
+    text-shadow: 1px 1px rgb(230,150,105);
+}
+
+.top h1{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 5.5rem;
+    line-height: 1;
+    color: rgb(230,150,105);
+    text-shadow: 1px 1px rgb(168,93,64);
+}
+
+.top a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
